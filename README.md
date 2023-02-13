@@ -1,24 +1,16 @@
-# README
+# GraphQL with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a a basic Rails project where I implemented GraphQL queries and mutations. 
 
-Things you may want to cover:
+## Prerequisits
+  * Ruby 2.6.3
+  * Rails 5.2.8
+  * GraphQL 2.0.14
 
-* Ruby version
+## Install Dependencies
+  * bundle
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Create and Migrate Database
+  * Run the following command to create and migrate the database
+  * rails db:create
+  * rails db:migrate
